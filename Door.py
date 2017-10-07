@@ -1,6 +1,6 @@
 CHOICE_1 = "enter"
 CHOICE_2 = "close"
-MISTAKE_LIM = 10
+MISTAKE_LIM = 5
 
 def door():
     
