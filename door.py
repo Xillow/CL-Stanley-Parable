@@ -18,9 +18,9 @@ def door():
             window.window()
         
         elif decision == CHOICE_2:
-	        reluctant.reluctant()
+	    reluctant.reluctant()
         
     	elif count > MISTAKE_LIM:
-		    print("Stanley just kept touching doors and desks and pushing buttons meaninglessly, failing to realize that he was not progressing the story at all.")
+            print("Stanley just kept touching doors and desks and pushing buttons meaninglessly, failing to realize that he was not progressing the story at all.")
 		
     	count += 1
