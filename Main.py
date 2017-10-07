@@ -10,7 +10,7 @@ def main():
     print("every day of every month of every year, and although others might have considered it soul rending, Stanley relished")
     print("every moment the orders came in, as though he had been made exactly for this job. And Stanley was happy.")  
   
-    door.
+    door.door()
   
   
   
