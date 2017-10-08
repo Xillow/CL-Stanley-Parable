@@ -2,13 +2,16 @@ import stairs
 
 CHOICE_1 = "pass"
 CHOICE_2 = "enter"
+
 MISTAKE_LIM = 11
 
 def Left():
+	decision = ""
+	count = 0
+	
+
     
-    decision = ""
-    count = 0
-    
+
     #while loop checks to make sure you have selected a correct option
     while (decision != CHOICE_1) and (decision != CHOICE_2):
         
@@ -18,7 +21,24 @@ def Left():
         	stairs.stairs()
         
         elif decision == CHOICE_2:
-		while count < MISTAKE_LIM:
+		print("In the meeting room: \n)
+        	print("Yet there was not a single person here either. Feeling a wave of disbelief, Stanley decided to go up to his boss's office, hoping he might find an answer there. \n")
+        	print("Entering the broom closet:\n")
+        	print("Stanley stepped into the broom closet, but there was nothing here, so he turned around and got back on track.\n")
+        	print("There was nothing here. No choice to make. No path to follow. Just an empty broom closet. No reason to still be here.\n")
+		      inCloset = 0
+		      
+		      while (count < inCloset):
+		      
+		
+		      input("what is your choice?(\"pass\" or \"enter\")
+			if input != CHOICE_1:
+			    print("It was baffling that Stanley was still just sitting in the broom closet. He wasn't even doing anything. At least if there was something to interact with, he'd be justified in some way. As it is, he's literally just standing there, doing sweet FA.")
+			    elif:
+			    count += 1
+			    
+			    
+			 
 			 
                     else:
             print( "No, No, No stanley please select the correct option")
@@ -30,11 +50,7 @@ def Left():
 	C
 	
 	
-	print("In the meeting room: \n)
-        print("Yet there was not a single person here either. Feeling a wave of disbelief, Stanley decided to go up to his boss's office, hoping he might find an answer there. \n")
-        print("Entering the broom closet:\n")
-        print("Stanley stepped into the broom closet, but there was nothing here, so he turned around and got back on track.\n")
-        print("There was nothing here. No choice to make. No path to follow. Just an empty broom closet. No reason to still be here.\n")
+
                 
                 
                 
