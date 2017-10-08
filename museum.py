@@ -38,12 +38,15 @@ print("When every path you can walk has been created for you long in advance, de
 
 # credits
 
-print("Stanley, it's your turn to thank the people who created this mind game. Credits go to Thomas Macalester, Thomas Winkert, Matthew Brown.")
+print("Credits:")
 
+print("Original Game by Galactic Cafe")
 
+print("CL Version by Thomas Macalester, Thomas Winkert, Matthew Brown")
 
+print("Thank you for playing the demo! Look forward to the full version for more!")
 
-
+door.door()
 
 # PUT WAIT TRACK HERE
 
