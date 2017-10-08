@@ -1,4 +1,5 @@
 import stairs
+import broomCloset
 
 CHOICE_1 = "enter"
 CHOICE_2 = "close"
@@ -15,10 +16,10 @@ def Left():
 	decision = input("what is your choice?(\"enter\" or \"close\")
 	
         if decision == CHOICE_1:
-        
+        	broomCloset.broomCloset()
         
 
-            elif decision == CHOICE_2:
+        elif decision == CHOICE_2:
 		
 	        elif count > MISTAKE_LIM:
 			 
