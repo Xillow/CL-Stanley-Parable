@@ -1,9 +1,8 @@
 import stairs
-import broomCloset
 
-CHOICE_1 = "enter"
-CHOICE_2 = "close"
-MISTAKE_LIM = 10
+CHOICE_1 = "pass"
+CHOICE_2 = "enter"
+MISTAKE_LIM = 11
 
 def Left():
     
@@ -13,15 +12,13 @@ def Left():
     #while loop checks to make sure you have selected a correct option
     while (decision != CHOICE_1) and (decision != CHOICE_2):
         
-	decision = input("what is your choice?(\"enter\" or \"close\")
+	decision = input("what is your choice?(\"pass\" or \"enter\")
 	
         if decision == CHOICE_1:
-        	broomCloset.broomCloset()
+        	stairs.stairs()
         
-
         elif decision == CHOICE_2:
-		
-	        elif count > MISTAKE_LIM:
+		while count < MISTAKE_LIM:
 			 
                     else:
             print( "No, No, No stanley please select the correct option")
