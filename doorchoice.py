@@ -1,17 +1,21 @@
-import left
-import right
+#import left
+#import right
 LEFT = "left"
 RIGHT = "right"
 
 def doorchoice():
-    door = "none"
+	
+	door = ""
 
-    while door != LEFT and door != RIGHT:
-        print("When Stanley came to a set of 2 open doors, he entered the door on his left.")
-        door = input("(What is your choice? (\"yes\" or \"no\"))")
-    
-        if door == LEFT:
-            left.left()
-        if door == RIGHT:
-            right.right()
+	while door != LEFT and door != RIGHT:
         
+		print("When Stanley came to a set of 2 open doors, he entered the door on his left.")
+		door = input("(What is your choice? ('left' or 'right'))")
+    
+		if door == LEFT:
+            #left.left()
+			print("hi")
+			
+		elif door == RIGHT:
+			#right.right()
+			print("hi")
