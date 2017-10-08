@@ -14,7 +14,6 @@ def window():
         decision = input("what is your choice?('climb out' or 'pass')")
 
         if decision == CHOICE_1:
-            print("hi")
             areyou.areyou()
 
         elif decision == CHOICE_2:
