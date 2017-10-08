@@ -5,7 +5,7 @@ ENTER = "enter"
 userInput = ""
 
 
-def boss()
+def boss():
 userInput = input("type enter")
 if userInput != ENTER:
     escape.escape()
