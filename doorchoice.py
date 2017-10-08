@@ -1,5 +1,5 @@
-#import left
-#import right
+import left
+import right
 LEFT = "left"
 RIGHT = "right"
 
@@ -13,9 +13,7 @@ def doorchoice():
 		door = input("(What is your choice? ('left' or 'right'))")
     
 		if door == LEFT:
-            #left.left()
-			print("hi")
+            left.left()
 			
 		elif door == RIGHT:
-			#right.right()
-			print("hi")
+			right.right()
