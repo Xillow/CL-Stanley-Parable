@@ -1,2 +1,2 @@
-import escapeEnding
-import catWalk
+import escapeending
+import catwalk
