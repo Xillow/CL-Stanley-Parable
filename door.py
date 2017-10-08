@@ -1,5 +1,5 @@
 import window
-#import reluctant
+import reluctant
 CHOICE_1 = "enter"
 CHOICE_2 = "close"
 MISTAKE_LIM = 4
@@ -18,8 +18,8 @@ def door():
             window.window()
 
         elif decision == CHOICE_2:
-            #reluctant.reluctant()
-            print("hi")
+            reluctant.reluctant()
+           
         elif count > MISTAKE_LIM:
             print("Stanley just kept touching doors and desks and pushing buttons meaninglessly, failing to realize that he was not progressing the story at all.")
 
