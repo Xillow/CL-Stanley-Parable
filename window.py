@@ -21,6 +21,6 @@ def window():
         
         elif decision == CHOICE_2:
             
-		    doorchoice.doorchoice()
+            doorchoice.doorchoice()
         
 	    
