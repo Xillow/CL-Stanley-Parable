@@ -1,21 +1,18 @@
-import escapeending
+import escape
 import catwalk
 
-enter = "enter"
+ENTER = "enter"
 userInput = ""
 
-while userInput != enter:
 
-keypadInput = "" #intialization of users keypad input
+
 userInput = input("type enter")
-
-  if userInput == enter:
-
-print("Stepping into his manager's office, Stanley was once again stunned to discover not an indication of any human life. Shocked, unraveled, Stanley wondered in disbelief who orchestrated this. What dark secret was being held from him? What he could not have known was that the keypad behind the boss's desk guarded the terrible truth that his boss had been keeping from him. And so the boss had assigned it an extra secret PIN # 2845. But of course, Stanley couldn't possibly have known this.\n")
-
-
-print("2-8-4-5.\n")
+if userInput != ENTER:
+    escape.escape()
+elif userInput == ENTER:
   
+
+    print("Stepping into his manager's office, Stanley was once again stunned to discover not an indication of any human life. Shocked, unraveled, Stanley wondered in disbelief who orchestrated this. What dark secret was being held from him? What he could not have known was that the keypad behind the boss's desk guarded the terrible truth that his boss had been keeping from him. And so the boss had assigned it an extra secret PIN # 2845. But of course, Stanley couldn't possibly have known this.\n")  
  
 
     keypadInput = input("Type the keypad code(_-_-_-_)")  
@@ -30,6 +27,10 @@ print("2-8-4-5.\n")
         print("2-8-4-5")
       if wrongCount == 6:
         print("For god's- but it turns out that the panel's emergency override kicked in, and the door just opened all by itself, and Stanley just got the hell along with the story. Well woop-de-doo.\n")
-
+      catwalk.catwalk()
+    keypadInput = input("Type the keypad code(_-_-_-_)")  
+print("Yet incredibly, by simply pushing random buttons on the keypad, Stanley happened to input the correct code by sheer luck. Amazing. He stepped into the newly opened passageway.")
+catwalk.catwalk()
+                        
         
 
