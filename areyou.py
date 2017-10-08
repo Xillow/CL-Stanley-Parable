@@ -5,7 +5,7 @@ YES = "yes"
 NO = "no"
 
 def areyou():
-    sickGag = "none"
+    sickGag = ""
     
     print("At first, Stanley assumed he had broken the map, until he heard this narration and realized it was part of the game all along. He then praised the game for its insightful and witty commentary into the nature of video game structure and its examination of structural narrative tropes.")
     # time.sleep(8)
