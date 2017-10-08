@@ -16,13 +16,15 @@ print("Stepping into his manager's office, Stanley was once again stunned to dis
 print("Stanley began random codes into the keypad, knowing full well that the sheer statistical unlikelihood that this would result in a correct combination. If he knew that the combo was 2-8-4-5, it would be another story entirely. But no. No, this is what he's going to do instead.Stanley began random codes into the keypad, knowing full well that the sheer statistical unlikelihood that this would result in a correct combination. If he knew that the combo was 2-8-4-5, it would be another story entirely. But no. No, this is what he's going to do instead.\n")
 keypadInput = input("Type the keypad code(_-_-_-_)")
 if keypadInput != "2-8-4-5":
-  keypadInput = 0
+  keypadInputCount = 3
   count = 0
-  while(count < keypadInput):
+  while(count < keypadInputCount):
   print("No, no, no, no Stanley... Enter the right code.")
   keypadInput = input("Type the keypad code(_-_-_-_)")
-  
+  if keypadInput != "2-8-4-5":
   count += 1
+  
+    elif:
   
 print("Stanley just sat around twiddling his thumbs. Trying to input anything into the device was useless, since he could never possibly know that the combination was 2-8-4-5.\n")
 
