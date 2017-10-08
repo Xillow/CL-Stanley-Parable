@@ -16,7 +16,7 @@ def reluctant():
     # time.sleep(1)
     print("Here it comes.")
     # time.sleep(1)
-    
+    print("")
     # clear
     
     door.door()
