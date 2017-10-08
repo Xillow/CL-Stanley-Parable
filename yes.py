@@ -2,7 +2,7 @@ import door
 ESCAPE = "escape"
 
 def yes():
-    print("(Press enter to continue or type escape to leave)")
+    print("(Press enter to continue or type 'escape' to leave)")
     userInput = input("Well, I don't know how to say this politely but you could literally just hit escape and restart the game any old time you want. ")
     if userInput == ESCAPE:
         door.door()
