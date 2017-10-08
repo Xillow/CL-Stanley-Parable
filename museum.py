@@ -36,6 +36,11 @@ print("When every path you can walk has been created for you long in advance, de
 
 #prompt to enter museum
 
+# credits
+
+print("Stanley, it's your turn to thank the people who created this mind game. Credits go to Thomas Macalester, Thomas Winkert, Matthew Brown.")
+
+
 
 
 
